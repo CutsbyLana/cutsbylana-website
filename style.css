@@ -78,3 +78,47 @@ footer{
   text-align:center;
   padding:30px;
 }
+/* Navigation */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    background:white;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+
+.nav-logo img{
+    width:120px;
+}
+
+.nav-menu{
+    display:flex;
+    gap:30px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.nav-menu a{
+    text-decoration:none;
+    color:#4b4037;
+    font-weight:bold;
+}
+
+.book-nav{
+    background:#8b6a56;
+    color:white;
+    padding:12px 22px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.book-nav:hover{
+    background:#6f5343;
+}
