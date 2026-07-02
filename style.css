@@ -8,36 +8,53 @@ body{
 
 .hero{
   text-align:center;
-  padding:80px 20px;
+  padding:90px 20px;
   background:linear-gradient(#f9ecef,#ffffff);
 }
 
 .logo{
-  width:220px;
+  width:180px;
   height:auto;
   display:block;
   margin:0 auto 30px;
 }
 
 h1{
-  font-size:3rem;
-  margin-bottom:10px;
+  font-size:3.2rem;
+  margin-bottom:15px;
 }
 
 h2{
   color:#8b6a56;
-  font-size:2rem;
+  font-size:2.2rem;
+  text-align:center;
 }
 
 p{
-  max-width:700px;
-  margin:0 auto 20px;
+  max-width:750px;
+  margin:0 auto 25px;
+  text-align:center;
 }
 
 section{
   max-width:1000px;
   margin:auto;
   padding:70px 25px;
+}
+
+ul{
+  list-style:none;
+  padding:0;
+  text-align:center;
+}
+
+ul li{
+  background:white;
+  margin:12px auto;
+  padding:18px;
+  max-width:350px;
+  border-radius:12px;
+  box-shadow:0 3px 10px rgba(0,0,0,.08);
 }
 
 .btn{
