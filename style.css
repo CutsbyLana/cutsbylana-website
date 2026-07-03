@@ -15,6 +15,17 @@ body{
   background-position:center;
 }
 
+  .hero-photo{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 30px auto;
+    border: 6px solid white;
+    box-shadow: 0 8px 25px rgba(0,0,0,.15);
+}
+
 .logo{
   width:180px;
   height:auto;
